@@ -1,0 +1,1 @@
+export const skills = ["React", "TypeScript", "JavaScript", "SCSS", "Tailwind CSS", "Git"];

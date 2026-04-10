@@ -1,0 +1,122 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.projects {
+  &__container {
+    @include container;
+  }
+
+  &__header {
+    margin-bottom: 2rem;
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin: 0.5rem 0 0.75rem;
+    }
+
+    p:last-child {
+      color: $text-secondary;
+      max-width: 700px;
+      line-height: 1.8;
+    }
+  }
+
+  &__eyebrow {
+    color: #c4b5fd;
+    font-weight: 600;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.project-card {
+  background: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: $radius-lg;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    border-color: rgba(139, 92, 246, 0.35);
+  }
+
+  &__image {
+    height: 220px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(
+      135deg,
+      rgba(59, 130, 246, 0.2),
+      rgba(139, 92, 246, 0.15)
+    );
+    color: $text-secondary;
+  }
+
+  &__body {
+    padding: 1.4rem;
+  }
+
+  h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.35rem;
+  }
+
+  p {
+    color: $text-secondary;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+
+    span {
+      padding: 0.45rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      font-size: 0.9rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 0.8rem;
+
+    a {
+      flex: 1;
+      text-align: center;
+      padding: 0.85rem 1rem;
+      border-radius: 12px;
+      font-weight: 600;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    a:first-child {
+      background: linear-gradient(135deg, $accent-start, $accent-end);
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,35 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.skills {
+  &__container {
+    @include container;
+  }
+
+  &__eyebrow {
+    color: #c4b5fd;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 1.5rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    span {
+      padding: 1rem 1.25rem;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      min-width: 140px;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+}
