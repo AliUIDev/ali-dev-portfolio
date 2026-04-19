@@ -12,7 +12,7 @@ Build Tool: Vite
 ---
 
 ## Live Demo
-https://ali-dev-works.netlify.app/
+https://ali-dev-portfolio-ivory.vercel.app/
 
 ---
 
