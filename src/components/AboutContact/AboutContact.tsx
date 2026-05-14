@@ -10,8 +10,8 @@ function AboutContact() {
                     <p>
                         I'm a frontend developer specializing in clean, user-focused interfaces and modern web design.
 
-                        Beyond development, I provide content writing and English-Turkish translation services, helping 
-                        clients present ideas clearly and professionally. I continuously expand my language skills by 
+                        Beyond development, I provide content writing and English-Turkish translation services, helping
+                        clients present ideas clearly and professionally. I continuously expand my language skills by
                         learning new languages, allowing me to work across a wider range of projects and clients.
                     </p>
                 </div>
@@ -27,6 +27,12 @@ function AboutContact() {
                             GitHub:{" "}
                             <a href="https://github.com/AliNadirov" target="_blank" rel="noreferrer">
                                 github.com/AliNadirov
+                            </a>
+                        </li>
+                        <li>
+                            Behance:{" "}
+                            <a href="https://www.behance.net/ali-ui-dev" target="_blank" rel="noreferrer">
+                                View Profile
                             </a>
                         </li>
                         <li>
