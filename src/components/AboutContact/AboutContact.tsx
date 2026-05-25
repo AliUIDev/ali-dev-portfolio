@@ -25,8 +25,8 @@ function AboutContact() {
                         </li>
                         <li>
                             GitHub:{" "}
-                            <a href="https://github.com/AliNadirov" target="_blank" rel="noreferrer">
-                                github.com/AliNadirov
+                            <a href="https://github.com/AliUIDev" target="_blank" rel="noreferrer">
+                                AliUIDev
                             </a>
                         </li>
                         <li>
