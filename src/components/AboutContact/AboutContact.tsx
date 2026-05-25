@@ -35,12 +35,6 @@ function AboutContact() {
                                 View Profile
                             </a>
                         </li>
-                        <li>
-                            Freelancer:{" "}
-                            <a href="https://www.freelancer.com/u/Tolenor" target="_blank" rel="noreferrer">
-                                View Profile
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
