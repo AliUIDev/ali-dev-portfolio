@@ -1,6 +1,6 @@
 import financePreview from "../assets/images/finance-preview.png";
 import dashboardPreview from "../assets/images/admin-preview.png";
-import portfolioPreview from "../assets/images/portfolio-preview.png";
+import maisonPreview from "../assets/images/maisonPreview.png"
 
 export type Project = {
     title: string;
@@ -17,7 +17,7 @@ export const projects: Project[] = [
         description: "A web app to manage daily expenses with a clean interface and practical user flow.",
         tech: ["React", "JavaScript", "CSS"],
         liveUrl: "https://budgetbee-personal-finance-tracker.vercel.app/",
-        githubUrl: "https://github.com/AliNadirov/personal-finance-tracker",
+        githubUrl: "https://github.com/AliUIDev/personal-finance-tracker",
         image: financePreview,
     },
     {
@@ -25,15 +25,15 @@ export const projects: Project[] = [
         description: "A responsive dashboard interface focused on structure, components, and modern layout.",
         tech: ["React", "JavaScript", "CSS"],
         liveUrl: "https://admin-dashboard-app-ui.vercel.app/",
-        githubUrl: "https://github.com/AliNadirov/admin-dashboard",
+        githubUrl: "https://github.com/AliUIDev/admin-dashboard",
         image: dashboardPreview,
     },
     {
-        title: "Portfolio Website",
-        description: "A personal portfolio built to present projects, skills, and frontend work clearly.",
-        tech: ["React", "TypeScript", "SCSS"],
-        liveUrl: "https://ali-dev-portfolio-ivory.vercel.app/",
-        githubUrl: "https://github.com/AliNadirov/my-portfolio",
-        image: portfolioPreview,
+        title: "MAISON Operations Ledger",
+        description: "Luxury retail operations dashboard built with React, TypeScript, SCSS, and Recharts.",
+        tech: ["React", "TypeScript", "SCSS", "Recharts"],
+        liveUrl: "https://maison-operations-ledger.vercel.app/",
+        githubUrl: "https://github.com/AliUIDev/maison-operations-ledger",
+        image: maisonPreview,
     },
 ];
