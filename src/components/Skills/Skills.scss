@@ -2,6 +2,8 @@
 @use "../../styles/variables" as *;
 
 .skills {
+  padding: 5rem 0;
+
   &__container {
     @include container;
   }
@@ -18,18 +20,34 @@
   }
 
   &__list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     gap: 1rem;
 
     span {
-      padding: 1rem 1.25rem;
-      border-radius: 16px;
+      padding: 1rem 1.1rem;
+      border-radius: 18px;
       background: rgba(255, 255, 255, 0.04);
       border: 1px solid rgba(255, 255, 255, 0.08);
-      min-width: 140px;
       text-align: center;
       font-weight: 600;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .skills {
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .skills {
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }

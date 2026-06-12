@@ -7,13 +7,15 @@ function Hero() {
             <div className="hero__container">
                 <div className="hero__content">
                     <p className="hero__eyebrow">Frontend Developer</p>
-                    <h1>Hi, I'm Ali</h1>
+                    <h1>Hi, I'm Ali Nadirov</h1>
                     <p className="hero__roles">
                         Frontend Developer • Writer • Translator
                     </p>
                     <p className="hero__text">
-                        I build modern, responsive websites and clean user interfaces focused on usability and real client needs.
-                        I also provide content writing and translation services.
+                        I build modern, responsive websites and user-focused interfaces using JavaScript, React, TypeScript, and modern frontend technologies.
+
+                        Alongside development, I create clear, engaging content and provide translation services, helping businesses communicate effectively across different audiences.
+                        My combination of technical and communication skills allows me to contribute to both product development and content creation.
                     </p>
 
                     <div className="hero__actions">
