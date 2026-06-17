@@ -9,13 +9,15 @@ function Hero() {
                     <p className="hero__eyebrow">Frontend Developer</p>
                     <h1>Hi, I'm Ali Nadirov</h1>
                     <p className="hero__roles">
-                        Frontend Developer • Writer • Translator
+                        Frontend Developer • React Developer • TypeScript Developer
                     </p>
                     <p className="hero__text">
-                        I build modern, responsive websites and user-focused interfaces using JavaScript, React, TypeScript, and modern frontend technologies.
+                        I build modern, responsive web applications and user-focused interfaces using React,
+                        TypeScript, JavaScript, and modern frontend technologies. I enjoy creating clean, scalable,
+                        and maintainable solutions with a strong focus on performance, usability, and user experience.
+                        Through personal projects, I have developed dashboard applications, authentication flows, data
+                        visualization features, and responsive interfaces while continuously improving my frontend development skills.
 
-                        Alongside development, I create clear, engaging content and provide translation services, helping businesses communicate effectively across different audiences.
-                        My combination of technical and communication skills allows me to contribute to both product development and content creation.
                     </p>
 
                     <div className="hero__actions">

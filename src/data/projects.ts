@@ -13,7 +13,7 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        title: "Personal Finance Tracker",
+        title: "Personal Finance Management Platform",
         description: "A web app to manage daily expenses with a clean interface and practical user flow.",
         tech: ["React", "JavaScript", "CSS"],
         liveUrl: "https://budgetbee-personal-finance-tracker.vercel.app/",

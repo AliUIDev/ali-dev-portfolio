@@ -8,11 +8,12 @@ function AboutContact() {
                     <p className="about-contact__eyebrow">About</p>
                     <h2>Who I Am</h2>
                     <p>
-                        I'm a frontend developer specializing in clean, user-focused interfaces and modern web design.
-
-                        Beyond development, I provide content writing and English-Turkish translation services, helping
-                        clients present ideas clearly and professionally. I continuously expand my language skills by
-                        learning new languages, allowing me to work across a wider range of projects and clients.
+                        I'm a Frontend Developer specializing in React, TypeScript, and modern web technologies.
+                        I focus on building clean, responsive, and user-friendly interfaces with strong attention
+                        to performance, usability, and maintainable code. Through personal projects, I have developed
+                        dashboard applications, authentication flows, data visualization features, and scalable
+                        component-based architectures. I enjoy turning ideas into intuitive digital experiences while
+                        continuously expanding my frontend development skills.
                     </p>
                 </div>
 
@@ -30,9 +31,19 @@ function AboutContact() {
                             </a>
                         </li>
                         <li>
-                            Behance:{" "}
-                            <a href="https://www.behance.net/ali-ui-dev" target="_blank" rel="noreferrer">
+                            LinkedIn:{" "}
+                            <a href="https://www.linkedin.com/in/ali-nadirov/" target="_blank" rel="noreferrer">
                                 View Profile
+                            </a>
+                        </li>
+                        <li>
+                            Resume:{" "}
+                            <a
+                                href="/files/Ali_Nadirov_Frontend_Developer_Resume.pdf"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Download CV
                             </a>
                         </li>
                     </ul>
