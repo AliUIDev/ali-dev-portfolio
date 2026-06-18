@@ -9,7 +9,7 @@ function Hero() {
                     <p className="hero__eyebrow">Frontend Developer</p>
                     <h1>Hi, I'm Ali Nadirov</h1>
                     <p className="hero__roles">
-                        Frontend Developer • React Developer • TypeScript Developer
+                        Frontend Developer | React & TypeScript
                     </p>
                     <p className="hero__text">
                         I build modern, responsive web applications and user-focused interfaces using React,
