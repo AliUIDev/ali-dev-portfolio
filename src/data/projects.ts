@@ -1,6 +1,6 @@
-import financePreview from "../assets/images/finance-preview.png";
-import dashboardPreview from "../assets/images/admin-preview.png";
-import maisonPreview from "../assets/images/maisonPreview.png";
+import financePreview from "../assets/images/projects/finance-preview.png";
+import dashboardPreview from "../assets/images/projects/admin-preview.png";
+import maisonPreview from "../assets/images/projects/maisonPreview.png";
 
 export type Project = {
     title: string;

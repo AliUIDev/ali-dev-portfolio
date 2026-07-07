@@ -1,5 +1,5 @@
 import "./Hero.scss";
-import profileImg from "../../assets/images/my_profile_image.png";
+import profileImg from "../../assets/images/profile/my_profile_image.png";
 
 function Hero() {
     return (
@@ -15,8 +15,8 @@ function Hero() {
                         I build modern, responsive web applications and user-focused interfaces using React,
                         TypeScript, JavaScript, and modern frontend technologies. I enjoy creating clean, scalable,
                         and maintainable solutions with a strong focus on performance, usability, and user experience.
-                        Through personal projects, I have developed dashboard applications, authentication flows, data
-                        visualization features, and responsive interfaces while continuously improving my frontend development skills.
+                        Through personal projects, I have built dashboard applications, authentication flows, data visualization
+                        features, and responsive interfaces while continuously expanding my frontend skills.
 
                     </p>
 

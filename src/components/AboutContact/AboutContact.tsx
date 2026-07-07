@@ -8,12 +8,11 @@ function AboutContact() {
                     <p className="about-contact__eyebrow">About</p>
                     <h2>Who I Am</h2>
                     <p>
-                        I'm a Frontend Developer specializing in React, TypeScript, and modern web technologies.
-                        I focus on building clean, responsive, and user-friendly interfaces with strong attention
-                        to performance, usability, and maintainable code. Through personal projects, I have developed
-                        dashboard applications, authentication flows, data visualization features, and scalable
-                        component-based architectures. I enjoy turning ideas into intuitive digital experiences while
-                        continuously expanding my frontend development skills.
+                        I'm a Frontend Developer passionate about building clean, responsive, and
+                        user-friendly web applications with React, TypeScript, and modern frontend technologies.
+                        Alongside frontend development, I enjoy creating UI concepts, branding, and marketing visuals,
+                        combining technical implementation with creative thinking. I continuously expand my skills by building
+                        practical projects and exploring new technologies to create intuitive, high-quality digital experiences.
                     </p>
                 </div>
 

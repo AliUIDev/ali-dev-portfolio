@@ -1,1 +1,1 @@
-export const skills = ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "SCSS", "Tailwind CSS", "REST API", "Git", "GitHub", "OAuth", "Facebook SDK", "Vercel"]
+export const skills = ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "SCSS", "REST API", "Git", "GitHub", "OAuth", "Tailwind CSS", "Vercel", "Facebook SDK"]

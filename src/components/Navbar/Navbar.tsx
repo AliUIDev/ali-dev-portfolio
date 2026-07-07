@@ -10,6 +10,7 @@ function Navbar() {
 
         <nav className="navbar__links">
           <a href="#projects">Projects</a>
+          <a href="#creative">Creative</a>
           <a href="#skills">Skills</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
